@@ -1,0 +1,24 @@
+1. Cargue de archivos.
+
+2. Estudiante-Facultad
+
+3. Dim_Facultad
+	- Tomar columna facultad de archivo Estudiante-Factultad
+	- Eliminar duplicados
+4. Dim_estudiante:
+	- Archivo Estudiante-ID
+5.6.7 Tabla de notas (Tres periodos):
+
+	- pivotear tabla
+	- Renombrar columnas
+
+8. Cruzar tablas (periodo 1 con 2 y resultante con periodo 3)
+
+9. Generar las fuentes para power bi
+
+	- Dim_Facultad
+	- Dim_Estudiantes
+	- Estudiante_Facultad
+	- Notas
+
+

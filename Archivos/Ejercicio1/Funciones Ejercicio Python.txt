@@ -1,0 +1,32 @@
+Ejercicio Python:
+
+Cargar CSV:
+DF = pd.read_csv(ruta, header=0,delimiter=';')
+
+Elegir columnas de data frame:
+
+DF = DF[['Col1',...,'ColN']]
+
+Eliminar duplicados:
+
+DF = DF.drop_duplicates()
+
+Pivotear tabla:
+
+DF = pd.melt(DF,id_vars='Col_Fija',value_vars=['Col_Var1',...'Col_VarN'])
+
+Renombrar Columnas:
+
+DF = DF.rename(columns={'Col_1':'Col_1_Nueva','Col_N':'Col_N_Nueva'})
+
+Concatenar(Creación de llave):
+
+DF['Key'] = DF.Col1.str.cat(DF.Col2)
+
+Combinar (Merge):
+
+DF = pd.merge(DF1,DF2[['Col1',...'ColN']],how="left",on="Key")
+
+Generar Excel:
+
+DF.to_excel(Ruta)
